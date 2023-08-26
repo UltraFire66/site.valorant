@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .barra-topo{
     display: flex;
     align-items: center ;
     justify-content: space-between;
-    background-color: black;
+    background-image: url("../site.valorant/figures/teladefundo.png");
     height: 7vw;
 }
 
@@ -26,3 +30,6 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
+
