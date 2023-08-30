@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.barra-topo{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    background-color: black;
+    height: 9vh;
+}
+
+
+
+.categoria:hover{
+    background-color: red;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.login{
+    margin-right: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fundo{
+
+        height: 100vh;
+        width: 100vw;
+
+}
+
+.categorias{
+    display: flex;
+   
+    height: 9vh;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-around;
+}
+
+.categoria{
+    color: white;
+    font-size: 20px;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 10vw;
+}
+
+.botao-categoria{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.botao-categoria-pressionado{
+
+    color: white;
+    font-size: 20px;
+    background-color: red ;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.corpo{
+
+    display: flex;
+    padding-top: 2vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dccbb5;
+    height: 100vw;
+}
+
+.menu{
+    position: fixed;
+    right:  90vw;
+    top: 20vh;
+    background-color: #E9EAEC;
+    height: 60%;
+    border-radius: 2vh;
+    
+}
+
+
+.menu-mapa{
+    
+    margin-bottom: 0.5vw;
+    height: 7vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+   
+    
+}
+
+.menu-mapa:hover{
+    
+   background-color: gray;
+}
+
+.menu-mapa p{
+    font-weight: bold;
+    color: black;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+
+
+.imagem-mapa{
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.imagem{
+    border-radius: 2vw;
+}
+
+.nome{
+
+    font-size: 35px;
+    margin-top: 1vh
+
+}
+
+.texto{
+
+    margin-top: 1vh;
+    margin-right: 10vw ;
+    margin-left: 10vw ;
+    font-size: 25px;
+    text-align: center;
+}

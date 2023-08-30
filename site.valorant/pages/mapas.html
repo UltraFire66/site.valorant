@@ -2,11 +2,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+
+    <!--importando fonte raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapas</title>
     <link rel="icon" href="../figures/icone.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type = "text/css" href="../principal.css">
+    <link rel="stylesheet" type = "text/css" href="../styles/mapas.css">
 
     <style>
 
@@ -31,6 +37,14 @@
         font-family: 'tituloFont';
         }
 
+        .nome{
+            font-family: 'tituloFont';
+        }
+
+        .texto{
+            font-family: 'Raleway', sans-serif;
+        }
+
     </style>
 
 </head>
@@ -39,11 +53,13 @@
     <!-- Barra abaixo do topo -->
 
     <div class="barra-topo">
-        <figure >
+        <a href="../index.html">
+            <figure >
 
-            <img class = "logo" src="../figures/logo1 (2).png" alt=""></img>
-        
-        </figure>
+                <img class = "logo" src="../figures/logo1 (2).png" alt=""></img>
+            
+            </figure>
+        </a>
         <div class="categorias">
 
             <a href="../pages/mapas.html">
@@ -73,6 +89,53 @@
         </div>
         
         <button class="login"><t>Login</t></button>
+
+    </div>
+    
+    <div class="corpo">
+
+        <div class="menu">
+
+            <a href="#Lotus">
+                <div class="menu-mapa">
+                    
+                    <p>LOTUS</p>
+        
+                </div>
+            </a>
+
+            <a href="#Pearl">
+                <div class="menu-mapa">
+                    <p>PEARL</p>
+        
+                </div>
+            </a>
+        </div>
+        
+
+        
+
+        <div class="imagem-mapa" id="Lotus">
+            <figure>
+
+                <img class="imagem" src="../figures/Lotus_Screenshot_1.webp" alt="">
+    
+            </figure>
+            <p class="nome">Lotus</p>
+        </div>
+        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis tellus faucibus, imperdiet mi at, ultrices leo. Ut at est nec lacus maximus ornare. Sed feugiat nisi id auctor sollicitudin. Donec vestibulum justo id nisi lacinia blandit. Quisque faucibus vel sapien in fermentum. Fusce ac nisl ac urna volutpat ornare ac non mi. Suspendisse venenatis suscipit odio at iaculis.</p>
+        
+
+        
+        <div class="imagem-mapa" id="Pearl">
+            <figure >
+
+                <img class="imagem" src="../figures/Pearl_Gallery_01.webp" alt="">
+    
+            </figure>
+            <p class="nome">Pearl</p>
+        </div>
+        <p class="texto">Atacantes avançam em direção aos Defensores neste vibrante mapa subaquático com dois pontos principais. Pearl é um mapa sem mecânicas focado no ambiente. Encare a batalha em um Meio compacto ou em áreas mais alongadas no nosso primeiro mapa situado na Terra Ômega.</p>
 
     </div>
 
