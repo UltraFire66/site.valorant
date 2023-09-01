@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valorant</title>
-    <link rel="icon" href="./figures/icone.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type = "text/css" href="./principal.css">
+    <title>Personagens</title>
+    <link rel="icon" href="../figures/icone.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type = "text/css" href="../styles/sobre.css">
 
     <style>
 
         @font-face {
             font-family: 'tituloFont';
-            src: url('fontes/Valorant\ Font.ttf') format(truetype);
+            src: url('../fontes/Valorant\ Font.ttf') format(truetype);
             font-weight: normal;
             font-style: normal;
 
@@ -39,20 +39,22 @@
     <!-- Barra abaixo do topo -->
 
     <div class="barra-topo">
-        <figure >
+        <a href="../index.html">
+            <figure >
 
-            <img class = "logo" src="./figures/logo1 (2).png" alt=""></img>
-        
-        </figure>
+                <img class = "logo" src="../figures/logo1 (2).png" alt=""></img>
+            
+            </figure>
+        </a>
         <div class="categorias">
 
-            <a href="./pages/mapas.html">
+            <a href="../pages/mapas.html">
                 <button  class="botao-categoria">
                     <H1 class= "categoria" >mapas</H1>
                 </button>
             </a>    
             
-            <a href="./pages/personagens.html">
+            <a href="../pages/personagens.html">
                 <button class="botao-categoria">
                     <H1 class= "categoria" >personagens</H1>
                 </button>
@@ -60,18 +62,17 @@
             
                 
            
-            <a href="./pages/armas.html">
+            <a href="../pages/armas.html">
                 <button class="botao-categoria">
                     <H1 class= "categoria" >armas</H1>
                 </button>
             </a>
             
-            <a href="./pages/sobre.html">
+            <a href="./pages/armas.html">
                 <button class="botao-categoria">
                     <H1 class= "categoria" >sobre</H1>
                 </button>
             </a>
-                
           
             
             
@@ -81,27 +82,38 @@
 
     </div>
 
-    <!-- abaixo do topo -->
+    <div class="corpo">
 
-    <div class="barra">
+        <section class="container">
 
-        <figure>
+            <div class="slide-wrapper">
 
-            <img class= "fundo" src="./figures/fundo.jpg" alt=""></img> 
+                <div class="slider">
 
-        </figure>
-        <div class="personagens">
-            <t> </t>
-        </div>
-        <div class="mapas"></div>
-        <div class="armas"></div>
+                    <img id = "slide-1" src="../figures/ascent1.webp" alt="">
+
+                    <img id = "slide-2" src="../figures/bind1.webp" alt="">
+
+                    <img id = "slide-3" src="../figures/breeze_1.webp" alt="">
+
+                </div>
+
+                <div class="slider-nav">
+
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
 
     </div>
 
-   
-   
-
-
-    
 </body>
 </html>

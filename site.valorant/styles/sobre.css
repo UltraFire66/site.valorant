@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .barra-topo{
     display: flex;
@@ -84,64 +85,6 @@
 
 }
 
-.corpo{
-
-    display: flex;
-    padding-top: 2vh;
-    align-items: center;
-    flex-direction: column;
-    background-color: #dccbb5;
-    height: 100%;
-}
-
-.menu{
-    position: fixed;
-    right:  90vw;
-    top: 20vh;
-    background-color: #E9EAEC;
-    height: 60%;
-    border-radius: 2vh;
-    
-}
-
-
-.menu-mapa{
-    
-    margin-bottom: 0.5vw;
-    height: 5.78vh;
-    width: 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2vh;
-   
-    
-}
-
-.menu-mapa:hover{
-    
-   background-color: gray;
-}
-
-.menu-mapa p{
-    font-weight: bold;
-    color: black;
-}
-
-.menu a{
-    text-decoration: none;
-}
-
-
-
-.imagem-mapa{
-    padding-top: 8vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
 
 .slide-wrapper{
     position: relative ;
@@ -178,8 +121,8 @@
 }
 
 .slider-nav a{
-    width: 0.75rem;
-    height: 0.75rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background-color: #fff;
     opacity: 0.75;
@@ -190,35 +133,3 @@
 .slider-nav a:hover{
     opacity: 1;
 }
-
-.imagem{
-    border-radius: 2vw;
-}
-
-.nome{
-
-    font-size: 35px;
-    margin-top: 1vh
-
-}
-
-.texto{
-
-    margin-top: 1vh;
-    margin-right: 10vw ;
-    margin-left: 10vw ;
-    font-size: 25px;
-    text-align: center;
-}
-
-.espacinho{
-    height: 10vh;
-}
-
-.anchor{
-    display: block;
-    height: 115px; /*same height as header*/
-    margin-top: -115px; /*same height as header*/
-    visibility: hidden;
-  }
-
