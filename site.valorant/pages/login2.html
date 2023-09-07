@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Login</title>
 
     <style>
 
@@ -12,7 +12,7 @@
 
             color: black;
             font-family: Arial, Helvetica, sans-serif;
-            background-image: url(../figures/fundoLogin.jpg);
+            background-image: url(../figures/fundologin2.jpg);
             background-repeat: no-repeat;
             background-size: cover ;
             
@@ -32,7 +32,7 @@
 
         fieldset{
 
-            border: 5px solid  black;
+            border: 3px solid  black;
         }
 
         legend{
@@ -132,16 +132,9 @@
             <form action="">
 
                 <fieldset>
-                        <legend> <b>Cadastro</b> </legend>
+                        <legend> <b>Login</b> </legend>
+                    
                         <br>
-
-                        <div class="inputcaixa">
-
-                            <input type="text" name="nome" id="nome" class="inputusuario" required>
-                            <label for="nome" class="labelinput" >Nome completo</label> 
-
-                        </div>
-                        <br><br>
                         <div class="inputcaixa">
 
                             <input type="text" name="email" id="email" class="inputusuario" required>
@@ -157,52 +150,7 @@
                             
                         </div>
 
-
-                       
                         <br><br>
-                        <p>Sexo:</p>
-                        
-                        <input type="radio" id="feminino" name="genero" value="feminino" required>
-                        <label for="feminino">Feminino</label>
-                        
-                        <br>
-                        <input type="radio" id="masculino" name="genero" value="masculino" required>
-                        <label for="masculino">Masculino</label>
-
-                        <br>
-                        <input type="radio" id="outro" name="genero" value="outro" required>
-                        <label for="outro">Outro</label>
-
-                        <br><br>
-                        <div class="inputcaixa">
-
-                            <label for="data_nascimento"> <b> Data de nascimento: </b> </label> 
-                            <input type="date" name="data_nascimento" id="data_nascimento" class="inputusuario" required>
-                         
-                        </div>
-                        <br><br>
-                        <div class="inputcaixa">
-
-                            <input type="text" name="cidade" id="cidade" class="inputusuario" required>
-                            <label for="cidade"  class="labelinput" >Cidade</label> 
-
-                        </div>
-                        <br><br>
-                        <div class="inputcaixa">
-
-                            <input type="text" name="estado" id="estado" class="inputusuario" required>
-                            <label for="estado"  class="labelinput" >Estado</label> 
-
-                        </div>
-                        <br><br>
-                        <div class="inputcaixa">
-
-                            <input type="text" name="endereco" id="endereco" class="inputusuario" required>
-                            <label for="endereco"  class="labelinput" >Endereço</label> 
-
-                        </div>
-                        <br><br>
-                        
                         <a href="./pages/index.html">
 
                             <input type="submit" name="submit" id="submit">
@@ -210,12 +158,8 @@
                         </a>
                         <br><br>
                     
-                        <a href="./pages/login2.html" id = "link-botao"><button class="login"><t>Já possui conta?</t></button></a>
-
+                        <a href="./pages/login.html" id = "link-botao"><button class="login"><t>Não possui conta?</t></button></a>
                 
-
-
-
 
                 </fieldset>
 
