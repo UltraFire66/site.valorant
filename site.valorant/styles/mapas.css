@@ -215,14 +215,12 @@
     text-align: center;
 }
 
-.espacinho{
-    height: 10vh;
-}
 
-.anchor{
-    display: block;
-    height: 115px; /*same height as header*/
-    margin-top: -115px; /*same height as header*/
-    visibility: hidden;
+
+  html {
+    --top-spacing: 184px;
+    scroll-padding-top: var(--top-spacing);
   }
+
+ 
 
