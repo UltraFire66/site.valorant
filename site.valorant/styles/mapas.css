@@ -152,6 +152,7 @@
     max-width: 48rem;
     margin: 0 auto;
     
+    
 }
 
 .slider{
@@ -162,6 +163,7 @@
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0,75rem hsla(0, 0%, 0%, 0.25);
     overflow: hidden;
+    border-radius: 50px;
 }
 
 .slider img{
@@ -215,7 +217,11 @@
     text-align: center;
 }
 
+.espacinho{
 
+    padding-top: 10vh;
+
+}
 
   html {
     --top-spacing: 184px;
