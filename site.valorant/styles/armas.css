@@ -115,5 +115,62 @@ button{
 }
 
 
+body{
+
+    background-color: #DCCBB5;
+
+}
+
+
+.exibirArma{
+
+    width: 25vw;
+    height: 40vh;
+    background-color: #D9D9D9;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.nomeArma{
+
+    font-family: 'VALORANT';
+    font-size: 40px;
+    margin-top: 2vh;
+
+}
+
+.barrinha{
+
+    background-color: black;
+    width: 80%;
+
+    height: 4px;
+
+}
+
+.arma{
+    margin-top: 2vh;
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down
+}
+
+.texto{
+
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left:20px;
+    margin-right:20px;
+   
+
+}
+
 
 
