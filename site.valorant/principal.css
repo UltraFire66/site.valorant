@@ -53,8 +53,8 @@ font-family: 'VALORANT';
 
 .login{
     margin-right: 30px;
-    height: 40px;
-    width: 120px;
+    height: 4.1vh;
+    width: 6.25vw;
     background-color: red;
     border-radius: 10px;
     font-size: 15px;
@@ -161,6 +161,7 @@ font-family: 'VALORANT';
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 2rem 3.5rem;
+    height: 13vh;
  }
 
 #footer_contacts {
