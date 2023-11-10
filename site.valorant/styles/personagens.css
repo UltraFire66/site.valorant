@@ -19,7 +19,7 @@ h1{
 }
 
 h2{
-    font-family: 'VALORANT';  
+    font-family: 'VALORANT';
 }
 
 button{
@@ -42,8 +42,9 @@ font-family: 'VALORANT';
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    object-fit:contain;
+    width: 5vw;
+    height: 10.36vh;
 }
 
 #link-botao{
@@ -51,12 +52,12 @@ font-family: 'VALORANT';
 }
 
 .login{
-    margin-right: 30px;
-    height: 40px;
-    width: 120px;
+    margin-right: 1.5vw;
+    height: 4.1vh;
+    width: 6.25vw;
     background-color: red;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 0.78125vw;
     font-weight: bold;
     color: white;
     display: flex;
@@ -95,7 +96,7 @@ font-family: 'VALORANT';
 
 .categoria{
     color: white;
-    font-size: 20px;
+    font-size: 1vw;
     height: 9vh;
     display: flex;
     align-items: center;
@@ -121,8 +122,10 @@ font-family: 'VALORANT';
     height: 9vh;
     display: flex;
     align-items: center;
+   
 
 }
+
 
 .fundo {
 
