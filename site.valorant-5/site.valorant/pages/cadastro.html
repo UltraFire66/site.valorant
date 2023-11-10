@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="icon" href="../figures/icone.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type = "text/css" href="../styles/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+
+<body>
+        <div class="caixa">
+            
+            <form action="">
+
+                <fieldset>
+                        <legend> <b>Cadastro</b> </legend>
+                        <br>
+
+                        <div class="inputcaixa">
+
+                            <input type="text" name="nome" id="nome" class="inputusuario" required>
+                            <label for="nome" class="labelinput" >Nome completo</label> 
+
+                        </div>
+                        <br><br>
+                        <div class="inputcaixa">
+
+                            <input type="text" name="email" id="email" class="inputusuario" required>
+                            <label for="email"  class="labelinput" >Email</label> 
+
+                        </div>
+                        <br><br>
+                        <div class="inputcaixa">
+
+                            <input type="password" name="senha" id="senha" class="inputusuario" required >
+                            <label for="senha"  class="labelinput" >Senha</label> 
+                           
+                            
+                        </div>
+
+
+                       
+                        <br><br>
+                        <p>Sexo:</p>
+                        
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label for="feminino">Feminino</label>
+                        
+                        <br>
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label for="masculino">Masculino</label>
+
+                        <br>
+                        <input type="radio" id="outro" name="genero" value="outro" required>
+                        <label for="outro">Outro</label>
+
+                        <br><br>
+                        <div class="inputcaixa">
+
+                            <label for="data_nascimento"> <b> Data de nascimento: </b> </label> 
+                            <input type="date" name="data_nascimento" id="data_nascimento" class="inputusuario" required>
+                         
+                        </div>
+                        <br><br>
+                        <div class="inputcaixa">
+
+                            <input type="text" name="cidade" id="cidade" class="inputusuario" required>
+                            <label for="cidade"  class="labelinput" >Cidade</label> 
+
+                        </div>
+                        <br><br>
+                        <div class="inputcaixa">
+
+                            <input type="text" name="estado" id="estado" class="inputusuario" required>
+                            <label for="estado"  class="labelinput" >Estado</label> 
+
+                        </div>
+                        <br><br>
+                        <div class="inputcaixa">
+
+                            <input type="text" name="endereco" id="endereco" class="inputusuario" required>
+                            <label for="endereco"  class="labelinput" >Endereço</label> 
+
+                        </div>
+                        <br><br>
+                        
+                        <a href="./pages/index.html">
+
+                            <input type="submit" name="submit" id="submit">
+
+                        </a>
+                        <br><br>
+                    
+                        <a href="./login.html" id = "link-botao"><button class="login" type="button"><t>Já possui conta?</t></button></a>
+
+                
+
+
+
+
+                </fieldset>
+
+            </form>
+
+        </div>  
+</body>
+</html>
+
+
