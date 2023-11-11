@@ -81,7 +81,12 @@ font-family: 'VALORANT';
         height: 100%;
         margin: 0;
         padding: 0;
-        
+
+}
+
+.fundoCell{
+
+    display: none;
 
 }
 
@@ -297,6 +302,8 @@ font-family: 'VALORANT';
         cursor: pointer;
     }
 
+    
+
     .categoria{
         color: white;
         font-size: 1.5vw;
@@ -347,14 +354,26 @@ font-family: 'VALORANT';
         color: var(--color-neutral-40);
      }
 
-     .fundo{
+    .fundo{
 
         display: flex;
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-    }
+        display: none;
+}
+
+.fundoCell{
+
+
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+}
    
 }
 
@@ -375,7 +394,7 @@ font-family: 'VALORANT';
     .botao-categoria-pressionado{
 
         color: white;
-        font-size: 20px;
+        font-size:  2.4vw;
         background-color: red ;
         height: 7vh;
         display: flex;
@@ -387,7 +406,7 @@ font-family: 'VALORANT';
     
     #footer_content {
         grid-template-columns: repeat(3,1fr);
-        padding: 2rem 1rem ;
+        
     }
 
     .footer-list {
@@ -418,15 +437,6 @@ font-family: 'VALORANT';
         height: 15.36vh;
     }
 
-    .fundo{
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    
-    }
 
     .login{
         margin-right: 1.5vw;
@@ -442,4 +452,29 @@ font-family: 'VALORANT';
         justify-content: center;
         cursor: pointer;
     }
+
+    .fundo{
+
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: none;
+}
+
+    .fundoCell{
+
+
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+}
+
+
+    
+
 }

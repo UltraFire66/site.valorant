@@ -130,10 +130,17 @@ font-family: 'VALORANT';
 
 body{
 
-    background-color: #dccbb5;
-    overflow-x: hidden;
+    background-color: red;
+
+    
 }
 
+#corpo{
+
+    background-color: #dccbb5;
+    width: 100vw;
+    overflow-y: hidden;
+}
 
 .exibirArma{
 
@@ -191,8 +198,8 @@ body{
 .espaco{
     
     height: 3vh;
-    width: 100%;
-   
+    width: 100vw;
+    background-color: #dccbb5;
 }
 
 /* Footer */
@@ -218,7 +225,7 @@ body{
  
 
  footer {
-    width: 100%;
+    width: 100vw;
     color: var(--color-neutral-40);
  }
 
@@ -337,6 +344,29 @@ body{
 
 @media screen and (max-width:768px) {
 
+    .exibirArma{
+
+        width: 70vw;
+        height: 45vh;
+        background-color: #D9D9D9;
+        opacity: 0.8;
+        border-radius: 20px;
+        margin-top: 5vh;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nomeArma{
+
+        font-family: 'VALORANT';
+        font-size: 8vw;
+        margin-top: 2vh;
+    
+    }
+
     .barra-topo{
         display: flex;
         align-items: center ;
@@ -430,6 +460,30 @@ body{
 }
 
 @media screen and (max-width:426px) {
+
+
+    .exibirArma{
+
+        width: 70vw;
+        height: 40vh;
+        background-color: #D9D9D9;
+        opacity: 0.8;
+        border-radius: 20px;
+        margin-top: 10vh;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nomeArma{
+
+        font-family: 'VALORANT';
+        font-size: 8vw;
+        margin-top: 2vh;
+    
+    }
 
     .categoria{
         color: white;

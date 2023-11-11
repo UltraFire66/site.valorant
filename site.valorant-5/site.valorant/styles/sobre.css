@@ -142,13 +142,23 @@ font-family: 'VALORANT';
 .explicacao {
 
     width: 80vw;
-    height: 70vh;
+    height: 50vh;
     background-color: white;
     opacity: 0.5;
     font-family: 'Raleway', sans-serif;
-    font-size: 23px;
+    font-size: 1.5vw;
     font-weight:600;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5vh;
+
+}
+
+.textoExplicacao{
+
     
+    margin-right: 10vw;
+    margin-left: 10vw;
 
 }
 
@@ -438,6 +448,28 @@ font-family: 'VALORANT';
   
   }
 
+  .explicacao {
+
+    display: none;
+}
+
+.barrinha{
+
+    width: 80vw;
+    height: 55vh;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight:600;
+    
+}
   
   
 }
@@ -551,4 +583,28 @@ font-family: 'VALORANT';
       margin-left: 25px;
   
   }
+
+  .explicacao {
+
+    display: none;
+}
+
+.barrinha{
+
+    width: 80vw;
+    height: 55vh;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight:600;
+    
+}
+
 }
