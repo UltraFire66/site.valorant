@@ -64,6 +64,7 @@ font-family: 'VALORANT';
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-family: 'VALORANT';
 }
 
 .barra{
@@ -103,7 +104,7 @@ font-family: 'VALORANT';
     justify-content: center;
     padding-left: 5vw;
     padding-right: 5vw;
-    width: 10vw;
+    width: 20vw;
 }
 
 .botao-categoria{
@@ -396,6 +397,7 @@ body{
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        font-family: 'VALORANT';
     }
 
     .categoria{
@@ -407,7 +409,7 @@ body{
         justify-content: center;
         padding-left: 5vw;
         padding-right: 5vw;
-        width: 10vw;
+        width: 20vw;
     }
 
     .botao-categoria-pressionado{
@@ -494,7 +496,7 @@ body{
         justify-content: center;
         padding-left: 5vw;
         padding-right: 5vw;
-        width: 10vw;
+        width: 20vw;
     }
 
     .botao-categoria-pressionado{
@@ -566,6 +568,7 @@ body{
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        font-family: 'VALORANT';
     }
 }
 
