@@ -114,10 +114,43 @@ legend{
 
 @media screen and (max-width:768px) {
 
+    body{
+
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../figures/fundologin2.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .caixa{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        width: 50%;
+    }
+
+     
 
 }
 
 @media screen and (max-width:426px) {
 
+    body{
+
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../figures/fundo_Cell2.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+       
+    }
+ 
 }
 
