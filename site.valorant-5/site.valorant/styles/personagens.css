@@ -156,18 +156,102 @@ font-family: 'VALORANT';
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'VALORANT';
-    color: white;
-    
-    
 }
+
+.nomePersonagem{
+
+    font-family: 'VALORANT';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    background: rgba(0, 0, 0, 0); 
+    width: 5vw;
+    height: 10vh;
+    color: transparent;
+}
+
+
+.personagens {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width: 80vw;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-bottom: 10vh;
+
+}
+
+.nomePersonagem:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.7); 
+    cursor: pointer;
+}
+
+.foto{
+    width: 30vw;
+}
+
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 50vh;
+}
+
+.texto {
+
+    width: 43vw;
+    height: 20vh;
+    background-color: white;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-align: justify;
+    font-size: 1.5vw;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.habilidades{
+    
+    width: 50vw;
+    height: 18vh;
+    margin-top: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidade{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    margin-right: 70px;
+}
+
+.seta{
+    width: 5vw;
+    margin-top: 15vh;
+    cursor: pointer;
+}
+
 .icone{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+     height: 10vh;
 }
 
 body {
@@ -178,27 +262,11 @@ body {
 
 }
 
-.personagens {
-
-    display: flex;
-    flex-direction: row;
-    margin-left: 10vw;
-    margin-top: 10vh;
-    align-items: center;
-   
-}
 
 
 
-.texto {
 
-    width: 20vw;
-    height: 40vh;
-    background-color: white;
-    opacity: 0.4;
-    border-radius: 30px;
-    
-}
+
 
 /* footer */
 
