@@ -12,6 +12,7 @@
 </head>
 <body>
 
+   
   
 
     <div class="barra-topo">
@@ -69,18 +70,18 @@
 
              <div class="selecao">
 
-              <img src="../figures/personagens/vipericon.png" alt="" class = "icone">  </img> 
+              <img src="../figures/personagens/viper/vipericon.png" alt="" class = "icone">  </img> 
               <p class="nomePersonagem"> Viper </p> 
              </div>
 
 
           </div>
 
-          <div class="personagens">
+            <div class="personagens">
 
                 <div>
 
-                    <img src="../figures/personagens/viperfundo.png" alt="" class="foto" ></img>         
+                    <img src="../figures/personagens/viper/viperfundo.png" alt="" class="foto" ></img>         
 
                 </div>
 
@@ -91,18 +92,62 @@
                     </div>
 
                     <div class="habilidades">
-                        <img src="../figures/personagens/viper-c.png" alt="" class="habilidade"></img>
-                        <img src="../figures/personagens/viper-e.png" alt="" class="habilidade"></img>
-                        <img src="../figures/personagens/viper-q.png" alt="" class="habilidade"></img>
-                        <img src="../figures/personagens/viper-x.png" alt="" class="habilidade"></img>
-                        <img src="../figures/setinha pra baixo.png" alt="" class="seta"></img>
+                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
+
+                            
+                            <img src="../figures/personagens/viper/viper-c.png" alt="" class="habilidade"></img>
+                            <p>C</p>
+                            
+                        </div>
+                        
+                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
+
+                            <img src="../figures/personagens/viper/viper-e.png" alt="" class="habilidade"></img>
+                            <p>E</p>
+
+                        </div>
+
+                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
+
+                            
+                            <img src="../figures/personagens/viper/viper-q.png" alt="" class="habilidade"></img>
+                            <p>Q</p>
+
+                        </div>
+
+                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
+
+                            
+                            <img src="../figures/personagens/viper/viper-x.png" alt="" class="habilidade"></img>
+                            <p>X</p>
+                            
+                        </div>
+                        
+                       
+                       
+                        <img src="../figures/setinha pra baixo.png" alt="" class="seta" onclick="toggleMenu()"></img>
                     </div>
-
+                    
                 </div>
-                
+                 
+                              
 
-          </div>
-          
+            </div>
+
+          <div class="nowrap" id="janelinha">
+
+            <div class="skills">
+                <img src="../figures/personagens/viper/viper-c.png" alt="">
+                <img src="../figures/personagens/viper/viper-e.png" alt="">
+                <img src="../figures/personagens/viper/viper-q.png" alt="">
+                <img src="../figures/personagens/viper/viper-x.png" alt="">
+                
+            </div>        
+            
+            <img class = "video" src="../figures/personagens/viper/viper-c.gif"></img>
+
+          </div> 
+        
     </div>
 
      
@@ -161,7 +206,17 @@
 
   
     
-   
+   <script>
+
+    let submenu = document.getElementById("janelinha");
+
+
+
+    function toggleMenu(){
+        submenu.classList.toggle("wrap")
+    }
+
+   </script>
 
 </body>
 </html>
