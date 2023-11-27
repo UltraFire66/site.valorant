@@ -13,7 +13,7 @@
 <body>
 
    
-  
+  <script src="../app.js" type="module"></script>
 
     <div class="barra-topo">
         <a href="../index.html">
@@ -73,7 +73,6 @@
               <img src="../figures/personagens/viper/vipericon.png" alt="" class = "icone">  </img> 
               <p class="nomePersonagem"> Viper </p> 
              </div>
-
 
           </div>
 
@@ -137,14 +136,14 @@
           <div class="nowrap" id="janelinha">
 
             <div class="skills">
-                <img src="../figures/personagens/viper/viper-c.png" alt="">
-                <img src="../figures/personagens/viper/viper-e.png" alt="">
-                <img src="../figures/personagens/viper/viper-q.png" alt="">
-                <img src="../figures/personagens/viper/viper-x.png" alt="">
+                <img src="../figures/personagens/viper/viper-c.png" alt="" onclick="alteravideoc()">
+                <img src="../figures/personagens/viper/viper-e.png" alt="" onclick="alteravideoe()">
+                <img src="../figures/personagens/viper/viper-q.png" alt="" onclick="alteravideoq()">
+                <img src="../figures/personagens/viper/viper-x.png" alt="" onclick="alteravideox()">
                 
             </div>        
             
-            <img class = "video" src="../figures/personagens/viper/viper-c.gif"></img>
+            <img class = "vc" id = "video" ></img>
 
           </div> 
         
@@ -214,6 +213,30 @@
 
     function toggleMenu(){
         submenu.classList.toggle("wrap")
+        console.log("teste")
+    }
+
+
+    let video = document.getElementById("video");
+
+    function alteravideoc(){
+        video.classList.remove("vc","ve","vq","vx")
+        video.classList.add("vc")
+    }
+
+    function alteravideoe(){
+        video.classList.remove("vc","ve","vq","vx")
+        video.classList.add("ve")
+    }
+
+    function alteravideoq(){
+        video.classList.remove("vc","ve","vq","vx")
+        video.classList.add("vq")
+    }
+
+    function alteravideox(){
+        video.classList.remove("vc","ve","vq","vx")
+        video.classList.add("vx")
     }
 
    </script>

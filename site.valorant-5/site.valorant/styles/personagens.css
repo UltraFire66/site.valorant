@@ -302,17 +302,57 @@ font-family: 'VALORANT';
     margin-left: 12.5vw;
     cursor: pointer;
     width: 5vw;
-
 }
 
-.video{
+.vc{
 
     width: 50vw;
     height: 90%;
     margin-top: 2.5vh;
     margin-left: 10vw;
     border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-c.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.ve{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-e.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.vq{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-q.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.vx{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-x.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 
 body {
 
