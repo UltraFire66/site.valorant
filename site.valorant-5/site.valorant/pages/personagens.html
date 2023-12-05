@@ -63,75 +63,77 @@
     
       
         <div class="corpo">
+            <div class = "ajuste" style = "display: flex;flex-direction: column;">
 
-          <div class="barra-selecao">
-
-           
-
-             <div class="selecao">
-
-              <img src="../figures/personagens/viper/vipericon.png" alt="" class = "icone">  </img> 
-              <p class="nomePersonagem"> Viper </p> 
-             </div>
-
-          </div>
-
-            <div class="personagens">
-
-                <div>
-
-                    <img src="../figures/personagens/viper/viperfundo.png" alt="" class="foto" ></img>         
-
-                </div>
-
-                <div class="descricao">
-
-                    <div class="texto">
-                        Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.              
-                    </div>
-
-                    <div class="habilidades">
-                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
-
-                            
-                            <img src="../figures/personagens/viper/viper-c.png" alt="" class="habilidade"></img>
-                            <p>C</p>
-                            
-                        </div>
-                        
-                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
-
-                            <img src="../figures/personagens/viper/viper-e.png" alt="" class="habilidade"></img>
-                            <p>E</p>
-
-                        </div>
-
-                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
-
-                            
-                            <img src="../figures/personagens/viper/viper-q.png" alt="" class="habilidade"></img>
-                            <p>Q</p>
-
-                        </div>
-
-                        <div style = 'display: flex; flex-direction: column;align-items: center;'>
-
-                            
-                            <img src="../figures/personagens/viper/viper-x.png" alt="" class="habilidade"></img>
-                            <p>X</p>
-                            
-                        </div>
-                        
-                       
-                       
-                        <img src="../figures/setinha pra baixo.png" alt="" class="seta" onclick="toggleMenu()"></img>
-                    </div>
-                    
-                </div>
-                 
-                              
+                <div class="barra-selecao"></div>
 
             </div>
+          
+            <div class= "personagens" style = "display: flex;flex-direction: column;">
+                
+                <div class="fundo-personagens">
+                    <p style = "font-size: 2.7vw; color: white; font-family: 'VALORANT'; margin-top: 2vh;">Viper</p>
+                    <div style = "display: flex;flex-direction: row;">
+                        <div>
+        
+                            <img src="../figures/personagens/viper/viperfundo.png" alt="" class="foto" ></img>         
+        
+                        </div>
+                        
+                        <div class="descricao">
+        
+                            <div class="texto">
+                                Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.              
+                            </div>
+        
+                            <div class="habilidades">
+                                <div style = 'display: flex; flex-direction: column;align-items: center;'>
+        
+                                    
+                                    <img src="../figures/personagens/viper/viper-c.png" alt="" class="habilidade"></img>
+                                    <p>C</p>
+                                    
+                                </div>
+                                
+                                <div style = 'display: flex; flex-direction: column;align-items: center;'>
+        
+                                    <img src="../figures/personagens/viper/viper-e.png" alt="" class="habilidade"></img>
+                                    <p>E</p>
+        
+                                </div>
+        
+                                <div style = 'display: flex; flex-direction: column;align-items: center;'>
+        
+                                    
+                                    <img src="../figures/personagens/viper/viper-q.png" alt="" class="habilidade"></img>
+                                    <p>Q</p>
+        
+                                </div>
+        
+                                <div style = 'display: flex; flex-direction: column;align-items: center;'>
+        
+                                    
+                                    <img src="../figures/personagens/viper/viper-x.png" alt="" class="habilidade"></img>
+                                    <p>X</p>
+                                    
+                                </div>
+                                
+                            
+                            
+                                <img src="../figures/setinha pra baixo.png" alt="" class="seta" onclick="toggleMenu()"></img>
+                            </div>
+                            
+                        </div>
+                     
+                    </div>                              
+    
+                </div>
+
+
+                
+
+            </div>
+            
 
           <div class="nowrap" id="janelinha">
 
@@ -203,7 +205,7 @@
 
     </div>
 
-  
+    
     
    <script>
 
@@ -240,6 +242,8 @@
     }
 
    </script>
+
+<script  src="../scripts/selecaoPersonagem.js"></script>
 
 </body>
 </html>
