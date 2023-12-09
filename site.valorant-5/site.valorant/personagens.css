@@ -80,6 +80,7 @@ font-family: 'VALORANT';
 
 
 
+
 .categoria:hover{
     background-color: red;
 }
@@ -119,17 +120,12 @@ font-family: 'VALORANT';
 
 .fundo{
 
-        display: flex;
+        position: relative;
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-
-}
-
-.fundoCell{
-
-    display: none;
+        
 
 }
 
@@ -174,6 +170,262 @@ font-family: 'VALORANT';
 
 }
 
+
+.fundo {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-selecao {
+
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.baixa {
+
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.selecao{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.nomePersonagem{
+
+    font-family: 'VALORANT';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    background: rgba(0, 0, 0, 0); 
+    width: 5vw;
+    height: 10vh;
+    color: transparent;
+}
+
+
+.fundo-personagens {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width: 80vw;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+
+}
+
+.nomePersonagem:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.7); 
+    cursor: pointer;
+}
+
+.foto{
+    width: 35vw;
+    margin-bottom: 5vh;
+}
+
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 50vh;
+}
+
+.texto {
+
+    width: 43vw;
+    height: 20vh;
+    background-color: white;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-align: justify;
+    font-size: 1.5vw;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.habilidades{
+    
+    width: 50vw;
+    height: 18vh;
+    margin-top: 5.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.habilidades p{
+    
+  font-size: 3vw;
+  font-weight: 600;
+  margin-right: 70px;
+  margin-top: 1vh;
+  color: white;
+}
+
+.habilidade{
+    
+    border-radius: 30px;
+    margin-right: 70px;
+    width: 6vw
+}
+
+.seta{
+    width: 5vw;
+    margin-top: 15vh;
+    cursor: pointer;
+}
+
+.icone{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 10vh;
+}
+
+
+.nowrap{
+    max-height: 0;
+    height: 57vh;
+    width: 80vw;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.nowrap.wrap{
+    
+    max-height: 57vh;
+    
+  
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills img{
+    
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 12.5vw;
+    cursor: pointer;
+    width: 5vw;
+}
+
+.vc{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-c.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ve{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-e.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.vq{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-q.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.vx{
+
+    width: 50vw;
+    height: 90%;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    border-radius: 30px;
+    background-image: url(../figures/personagens/viper/viper-x.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+body {
+
+    background-image: url(../figures/fundopersonagens.JPG);
+   
+}
+
+
+
+
+
+
+
 /* footer */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
@@ -197,6 +449,7 @@ font-family: 'VALORANT';
  
 
  footer {
+    margin-top: 10vh;
     width: 100%;
     color: var(--color-neutral-40);
  }
@@ -261,7 +514,7 @@ font-family: 'VALORANT';
 
     display: flex;
     flex-direction: column;
-    gap: 1.5rem
+    gap: 2rem;
 }
 
 #footer_subscribe p {
@@ -320,6 +573,7 @@ font-family: 'VALORANT';
         justify-content: space-between;
         background-color: black;
         height: 7vh;
+        
     }
 
     #btn-menu {
@@ -367,7 +621,7 @@ font-family: 'VALORANT';
 
         display: block;
         position: absolute;
-        top: 65px;
+        top: 60px;
         left: 0;
         width: 100vw;
         background-color: #0e0c0c7d;
@@ -400,7 +654,6 @@ font-family: 'VALORANT';
     }
 
 
-
     .logo {
         object-fit:contain;
         width: 12vw;
@@ -409,28 +662,19 @@ font-family: 'VALORANT';
 
 
     .login{
-        
+       
         display: none;
     }
 
-    
-
     .categoria{
-       
-        display: none;
         
+        display: none;
     }
 
     .botao-categoria-pressionado{
 
-        color: white;
-        font-size: 20px;
-        background-color: red ;
-        height: 7vh;
-        display: flex;
-        align-items: center;
+      display: none;
        
-    
     }
 
     #footer_content {
@@ -458,28 +702,6 @@ font-family: 'VALORANT';
         width: 100%;
         color: var(--color-neutral-40);
      }
-
-    .fundo{
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        display: none;
-}
-
-.fundoCell{
-
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-
-}
-   
 }
 
 @media screen and (max-width:426px) {
@@ -498,10 +720,10 @@ font-family: 'VALORANT';
         
     }
 
-    
+
     #footer_content {
         grid-template-columns: repeat(3,1fr);
-        
+        padding: 2rem 1rem ;
     }
 
     .footer-list {
@@ -521,6 +743,7 @@ font-family: 'VALORANT';
     }
 
     footer {
+
         width: 100%;
         color: var(--color-neutral-40);
     }
@@ -528,38 +751,25 @@ font-family: 'VALORANT';
 
     .logo {
         object-fit:contain;
-        width: 15vw;
+        width: 10vw;
         height: 15.36vh;
     }
 
-
     .login{
-        
-        display: none;
+        margin-right: 1.5vw;
+        height: 3vh;
+        width: 9.5vw;
+        background-color: red;
+        border-radius: 10px;
+        font-size: 2vw;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
     }
-
-    .fundo{
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        display: none;
-}
-
-    .fundoCell{
-
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-
 }
 
 
-    
 
-}

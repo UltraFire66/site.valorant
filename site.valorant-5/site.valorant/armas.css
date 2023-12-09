@@ -79,7 +79,6 @@ font-family: 'VALORANT';
 
 
 
-
 .categoria:hover{
     background-color: red;
 }
@@ -88,6 +87,7 @@ font-family: 'VALORANT';
     object-fit:contain;
     width: 6vw;
     height: 12vh;
+    margin-top: 8px;
 }
 
 #link-botao{
@@ -107,6 +107,7 @@ font-family: 'VALORANT';
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-family: 'VALORANT';
 }
 
 .barra{
@@ -119,17 +120,12 @@ font-family: 'VALORANT';
 
 .fundo{
 
-        display: flex;
+        position: relative;
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-
-}
-
-.fundoCell{
-
-    display: none;
+        
 
 }
 
@@ -151,7 +147,7 @@ font-family: 'VALORANT';
     justify-content: center;
     padding-left: 5vw;
     padding-right: 5vw;
-    width: 10vw;
+    width: 20vw;
 }
 
 .botao-categoria{
@@ -174,7 +170,83 @@ font-family: 'VALORANT';
 
 }
 
-/* footer */
+
+
+body{
+
+    background-color: red;
+
+    
+}
+
+#corpo{
+
+    background-color: #dccbb5;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.exibirArma{
+
+    width: 25vw;
+    height: 40vh;
+    background-color: #D9D9D9;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.nomeArma{
+
+    font-family: 'VALORANT';
+    font-size: 40px;
+    margin-top: 2vh;
+
+}
+
+.barrinha{
+
+    background-color: black;
+    width: 80%;
+
+    height: 4px;
+
+}
+
+.arma{
+    margin-top: 2vh;
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down
+}
+
+.texto{
+
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left:20px;
+    margin-right:20px;
+   
+
+}
+
+
+
+
+.espaco{
+    
+    height: 3vh;
+    width: 100vw;
+    background-color: #dccbb5;
+}
+
+/* Footer */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
@@ -197,7 +269,7 @@ font-family: 'VALORANT';
  
 
  footer {
-    width: 100%;
+    width: 100vw;
     color: var(--color-neutral-40);
  }
 
@@ -312,7 +384,32 @@ font-family: 'VALORANT';
     font-weight: 100;
 }
 
+
+
 @media screen and (max-width:768px) {
+
+    .exibirArma{
+
+        width: 70vw;
+        height: 45vh;
+        background-color: #D9D9D9;
+        opacity: 0.8;
+        border-radius: 20px;
+        margin-top: 5vh;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nomeArma{
+
+        font-family: 'VALORANT';
+        font-size: 8vw;
+        margin-top: 2vh;
+    
+    }
 
     .barra-topo{
         display: flex;
@@ -367,7 +464,7 @@ font-family: 'VALORANT';
 
         display: block;
         position: absolute;
-        top: 65px;
+        top: 58px;
         left: 0;
         width: 100vw;
         background-color: #0e0c0c7d;
@@ -399,6 +496,11 @@ font-family: 'VALORANT';
         background-color: red ;
     }
 
+    .botao-categoria-pressionado{
+
+        display: none;
+         
+    }
 
 
     .logo {
@@ -413,25 +515,12 @@ font-family: 'VALORANT';
         display: none;
     }
 
-    
-
     .categoria{
        
         display: none;
-        
     }
 
-    .botao-categoria-pressionado{
-
-        color: white;
-        font-size: 20px;
-        background-color: red ;
-        height: 7vh;
-        display: flex;
-        align-items: center;
-       
-    
-    }
+   
 
     #footer_content {
         grid-template-columns: repeat(3,1fr);
@@ -459,31 +548,19 @@ font-family: 'VALORANT';
         color: var(--color-neutral-40);
      }
 
-    .fundo{
+     .fundo{
 
         display: flex;
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-        display: none;
-}
-
-.fundoCell{
-
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-
-}
+    }
    
 }
 
 @media screen and (max-width:426px) {
-
+    
     #btn-menu {
 
         width: 40px;
@@ -498,10 +575,57 @@ font-family: 'VALORANT';
         
     }
 
+    .exibirArma{
+
+        width: 70vw;
+        height: 40vh;
+        background-color: #D9D9D9;
+        opacity: 0.8;
+        border-radius: 20px;
+        margin-top: 10vh;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nomeArma{
+
+        font-family: 'VALORANT';
+        font-size: 8vw;
+        margin-top: 2vh;
+    
+    }
+
+    .categoria{
+        color: white;
+        font-size: 2.4vw;
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: 20vw;
+    }
+
+    .botao-categoria-pressionado{
+
+        color: white;
+        font-size: 20px;
+        background-color: red ;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+       
+    
+    }
+
     
     #footer_content {
         grid-template-columns: repeat(3,1fr);
-        
+        padding: 2rem 1rem ;
     }
 
     .footer-list {
@@ -528,14 +652,8 @@ font-family: 'VALORANT';
 
     .logo {
         object-fit:contain;
-        width: 15vw;
+        width: 10vw;
         height: 15.36vh;
-    }
-
-
-    .login{
-        
-        display: none;
     }
 
     .fundo{
@@ -545,21 +663,25 @@ font-family: 'VALORANT';
         height: 100%;
         margin: 0;
         padding: 0;
-        display: none;
-}
-
-    .fundoCell{
-
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-
-}
-
-
     
+    }
 
+    .login{
+        margin-right: 1.5vw;
+        height: 3vh;
+        width: 9.5vw;
+        background-color: red;
+        border-radius: 10px;
+        font-size: 2vw;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-family: 'VALORANT';
+    }
 }
+
+
+

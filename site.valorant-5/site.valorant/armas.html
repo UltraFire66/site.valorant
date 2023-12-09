@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armas</title>
+    <link rel="icon" href="../figures/icone.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type = "text/css" href="../styles/armas.css">
+    <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <!-- Barra abaixo do topo -->
+
+    <div class="barra-topo">
+        <a href="../index.html">
+            <figure >
+
+                <img class = "logo" src="../figures/logo1 (2).png" alt=""></img>
+            
+            </figure>
+        </a>
+        <div class="categorias">
+
+            <a href="../pages/mapas.html">
+                <button  class="botao-categoria">
+                    <H1 class= "categoria" >mapas</H1>
+                </button>
+            </a>    
+            
+            <a href="../pages/personagens.html">
+                <button class="botao-categoria">
+                    <H1 class= "categoria" >personagens</H1>
+                </button>
+            </a>
+            
+                
+           
+            <a>
+                <button class="botao-categoria-pressionado">
+                    <H1 class= "categoria" >armas</H1>
+                </button>
+            </a>
+            
+            <a href="../pages/sobre.html">
+                <button class="botao-categoria">
+                    <H1 class= "categoria" >sobre</H1>
+                </button>
+            </a>   
+          
+            
+            
+        </div>
+        
+        <a href="../pages/login.html" id = "link-botao"><button class="login"><t>Login</t></button></a>
+
+    </div>
+
+     <!-- menu mobile -->
+
+     <button onclick="animarMenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+        
+    </button>
+
+     <div class="menu-mobile" id="menu-mobile">
+
+            <nav>
+                <a href="../pages/mapas.html">Mapas</a>
+                <a href="../pages/personagens.html">Personagens</a>
+                <a href="../pages/armas.html">Armas</a>
+                <a href="../pages/sobre.html">Sobre</a>
+                <a href="../pages/login.html">Login</a>
+            </nav>
+            
+     </div>
+
+    <script src="../animar.js"></script>
+
+      <!-- abaixo do topo -->
+
+    <div class="row" id="corpo">
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Classic</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/armas_leves/classic.png" alt="" class="arma">
+                <p class="texto">Leve e versátil, a arma padrão é um clássico inegável</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Shorty</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/armas_leves/shorty.png" alt="" class="arma">
+                <p class="texto">Surpreenda seus inimigos bem de perto para obter o máximo de eficiência</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Frenzy</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/armas_leves/frenzy.png" alt="" class="arma">
+                <p class="texto">A curta distância, dedo no gatilho! Já a longa distância... .</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Ghost</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/armas_leves/ghost.png" alt="" class="arma">
+                <p class="texto">Elegante, silenciosa e eficiente ao disparar de qualquer distância.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Sheriff</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/armas_leves/sheriff.png" alt="" class="arma">
+                <p class="texto">Sheriff é um revolver moderno feito buscar tiros certeiros na cabeça.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Stinger</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/submetralhadoras/stinger.png" alt="" class="arma">
+                <p class="texto">Os inimigos sabem que o fim chegou quando sentem o disparo da Stinger.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Spectre</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/submetralhadoras/spectre.png" alt="" class="arma">
+                <p class="texto">Bateu a dúvida? Vai de Spectre que tudo dá certo.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Bucky</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/escopetas/bucky.png" alt="" class="arma">
+                <p class="texto">Atacante? Defensor? Tanto faz. O importante é ter uma escopeta dessas em mãos.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">judge</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/escopetas/judge.png" alt="" class="arma">
+                <p class="texto">Judge é uma escopeta automática de tiro rápido que causa muito dano constante.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Bulldog</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/fuzis/bulldog.png" alt="" class="arma">
+                <p class="texto">Bulldog é o tipo de arma que traz satisfação ao conseguir um abate.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Guardian</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/fuzis/guardian.png" alt="" class="arma">
+                <p class="texto">Esta arma dá um show nas mãos de atiradores pacientes.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Phantom</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/fuzis/phantom.png" alt="" class="arma">
+                <p class="texto">Phantom é projetada para disparar tiros estáveis que alcançam longas distâncias.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Vandal</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/fuzis/vandal.png" alt="" class="arma">
+                <p class="texto">Este fuzil extremamente potente causa um enorme estrago com pequenas rajadas de balas.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Marshal</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/fuzis de precisao/marshal.png" alt="" class="arma">
+                <p class="texto">Escolha um ângulo bom, mire, e o alvo se arrependerá de ter dobrado aquela esquina.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Operator</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/fuzis de precisao/operator.png" alt="" class="arma">
+                <p class="texto">Aconchegue-se em um lugar e será capaz de controlar áreas importantes.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Ares</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/metralhadoras/ares.png" alt="" class="arma">
+                <p class="texto">Não subestime o poder desta arma.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="exibirArma">
+                <p class="nomeArma">Odin</p>
+                <div class="barrinha"></div>
+                <img src="../figures/armas/metralhadoras/odin.png" alt="" class="arma">
+                <p class="texto">Quem a possuir ascenderá à glória enquanto o oponente cai em ruína.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="espaco"></div>
+
+    <div class="barrafinal">
+
+        <footer>
+            <div id="footer_content">  
+                
+                <div id="footer_contacts">
+                    
+                    <a href="./index.html">
+                        <figure >
+
+                            <img class = "logo" src="../figures/logo1 (2).png" alt=""></img>
+                        
+                        </figure>
+                    </a>
+
+                    
+                </div>
+                
+                <ul class="footer-list">
+                    <li>
+                        <h3>Informações</h3>
+                    </li>
+                    <li>
+                        <a href="https://playvalorant.com/pt-br/?gad=1&gclid=Cj0KCQjw4vKpBhCZARIsAOKHoWTem9EfkWYDaF1s-s6TsgDmDAZBH2-4PB08YeaRTPAgU2QTc7zBnWkaAgr3EALw_wcB&gclsrc=aw.ds" class="footer-link">site valorant</a>
+                    </li>
+                    <li>
+                        <a href="https://playvalorant.com/pt-br/download/" class="footer-link">baixar jogo</a>
+                    </li>
+                    
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Criadores do site</h3>
+                    </li>
+                    <li>
+                        <p class="footer-link">Caio Rangel</a>
+                    </li>
+                    <li>
+                        <p class="footer-link">Carlos Eduardo Lopes</a>
+                    </li>
+                 
+
+                </ul>
+
+
+                
+            </div>
+        </footer>
+
+    </div>
+   
+
+</body>
+</html>

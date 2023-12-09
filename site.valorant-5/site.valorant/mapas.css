@@ -119,17 +119,12 @@ font-family: 'VALORANT';
 
 .fundo{
 
-        display: flex;
+        position: relative;
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-
-}
-
-.fundoCell{
-
-    display: none;
+        
 
 }
 
@@ -174,17 +169,167 @@ font-family: 'VALORANT';
 
 }
 
-/* footer */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+.corpo{
 
+    display: flex;
+    padding-top: 2vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dccbb5;
+    height: 100%;
+}
+
+.menu{
+    position: fixed;
+    right:  90vw;
+    top: 20vh;
+    background-color: #E9EAEC;
+    height: 60%;
+    border-radius: 2vh;
+    
+}
+
+
+.menu-mapa{
+    
+    margin-bottom: 0.5vw;
+    height: 5.78vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+   
+    
+}
+
+.menu-mapa:hover{
+    
+   background-color: gray;
+}
+
+.menu-mapa p{
+    font-weight: bold;
+    color: black;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+
+
+.imagem-mapa{
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.slide-wrapper{
+    position: relative ;
+    max-width: 50vw;
+    margin: 0 auto;
+    
+    
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0,75rem hsla(0, 0%, 0%, 0.25);
+    overflow: hidden;
+    border-radius: 50px;
+    width: 50vw;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start ;
+    object-fit: cover;
+   
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1.5rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+.imagem{
+    border-radius: 2vw;
+}
+
+.nome{
+
+    font-size: 1.82vw;
+    margin-top: 1vh;
+    font-family: 'VALORANT';
+
+}
+
+.texto{
+
+    margin-top: 1vh;
+    margin-right: 10vw ;
+    margin-left: 10vw ;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.espacinho{
+
+    padding-top: 10vh;
+
+}
+
+  html {
+    --top-spacing: 184px;
+    scroll-padding-top: var(--top-spacing);
+  }
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+ .slider-nav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
  :root {
     --color-neutral-0: #0e0c0c;
     --color-neutral-10: #171717;
     --color-neutral-30: #a8a29e;
     --color-neutral-40: #f5f5f5;
  }
- 
  .barrafinal {
 
     font-family: 'Inter' sans-serif;
@@ -193,17 +338,24 @@ font-family: 'VALORANT';
     box-sizing: border-box;
     letter-spacing: 1px;
     
- }
- 
+ }.slide-wrapper{
+    position: relative ;
+    max-width: 50vw;
+    margin: 0 auto;
+    
+    
+}
 
- footer {
+footer {
     width: 100%;
     color: var(--color-neutral-40);
  }
 
  .footer-link {
+
     text-decoration: none;
     font-size: 1vw;
+   
  }
 
  #footer_content {
@@ -266,6 +418,40 @@ font-family: 'VALORANT';
 
 #footer_subscribe p {
     color: var(--color-neutral-30);
+}
+.slide-wrapper{
+    position: relative ;
+    max-width: 75vw;
+    margin: 0 auto;
+    
+    
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1vh;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.nome{
+
+    font-size: 3vw;
+    margin-top: 1vh;
+    font-family: 'VALORANT';
+
+}
+
+.texto{
+
+    margin-top: 1vh;
+    margin-right: 10vw ;
+    margin-left: 10vw ;
+    font-size: 1.8vw;
+    text-align: center;
 }
 
 #input_group {
@@ -367,7 +553,7 @@ font-family: 'VALORANT';
 
         display: block;
         position: absolute;
-        top: 65px;
+        top: 64px;
         left: 0;
         width: 100vw;
         background-color: #0e0c0c7d;
@@ -399,8 +585,13 @@ font-family: 'VALORANT';
         background-color: red ;
     }
 
+    .botao-categoria-pressionado{
 
+        display: none;
+         
+      }
 
+   
     .logo {
         object-fit:contain;
         width: 12vw;
@@ -413,26 +604,12 @@ font-family: 'VALORANT';
         display: none;
     }
 
-    
-
     .categoria{
-       
-        display: none;
         
+        display: none;
     }
 
-    .botao-categoria-pressionado{
-
-        color: white;
-        font-size: 20px;
-        background-color: red ;
-        height: 7vh;
-        display: flex;
-        align-items: center;
-       
     
-    }
-
     #footer_content {
         grid-template-columns: repeat(3,1fr);
         gap: 3vh;
@@ -459,27 +636,55 @@ font-family: 'VALORANT';
         color: var(--color-neutral-40);
      }
 
-    .fundo{
-
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
+    .menu{
         display: none;
-}
+    }
 
-.fundoCell{
-
-
+    .slide-wrapper{
+        position: relative ;
+        max-width: 75vw;
+        margin: 0 auto;
+        
+        
+    }
+    
+    .slider-nav{
         display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
+        column-gap: 2vw;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
 
-}
-   
+    .slider-nav a{
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    
+    }
+    
+    .nome{
+
+        font-size: 4vw;
+        margin-top: 1vh;
+        font-family: 'VALORANT';
+    
+    }
+
+    .texto{
+
+        margin-top: 1vh;
+        margin-right: 10vw ;
+        margin-left: 10vw ;
+        font-size: 3vw;
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width:426px) {
@@ -498,19 +703,18 @@ font-family: 'VALORANT';
         
     }
 
-    
     #footer_content {
         grid-template-columns: repeat(3,1fr);
-        
+        padding: 2rem 2rem ;
     }
 
     .footer-list {
 
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 0.5rem;
         list-style: none;
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .footer-link {
@@ -528,38 +732,73 @@ font-family: 'VALORANT';
 
     .logo {
         object-fit:contain;
-        width: 15vw;
+        width: 10vw;
         height: 15.36vh;
     }
 
-
     .login{
-        
+        margin-right: 1.5vw;
+        height: 3vh;
+        width: 10vw;
+        background-color: red;
+        border-radius: 10px;
+        font-size: 1.8vw;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .menu{
         display: none;
     }
 
-    .fundo{
-
+    .slide-wrapper{
+        position: relative ;
+        max-width: 75vw;
+        margin: 0 auto;
+        
+        
+    }
+    
+    .slider-nav{
         display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        display: none;
-}
+        column-gap: 0.8vh;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
 
-    .fundoCell{
+    .nome{
 
+        font-size: 4vw;
+        margin-top: 1vh;
+        font-family: 'VALORANT';
+    
+    }
 
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
+    .texto{
 
-}
-
+        margin-top: 1vh;
+        margin-right: 10vw ;
+        margin-left: 10vw ;
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    .slider-nav a{
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    
+    }
 
     
-
 }
