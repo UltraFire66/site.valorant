@@ -392,7 +392,7 @@ font-family: 'VALORANT';
     position: absolute;
     display: block;
     top: 10px;
-    margin-left: 92vw;
+    margin-left: 93vw;
     
 }
 
@@ -427,7 +427,7 @@ font-family: 'VALORANT';
 
     display: block;
     position: absolute;
-    top: 64px;
+    top: 58px;
     left: 0;
     width: 100vw;
     background-color: #0e0c0c7d;
@@ -616,7 +616,7 @@ font-family: 'VALORANT';
 
    .logo {
        object-fit:contain;
-       width: 10vw;
+       width: 15vw;
        height: 15.36vh;
    }
 
@@ -630,21 +630,7 @@ font-family: 'VALORANT';
    
    }
 
-   .login{
-       margin-right: 1.5vw;
-       height: 3vh;
-       width: 9.5vw;
-       background-color: red;
-       border-radius: 10px;
-       font-size: 2vw;
-       font-weight: bold;
-       color: white;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       cursor: pointer;
-   }
-
+ 
    .barrinha{
 
       width: 80vw;

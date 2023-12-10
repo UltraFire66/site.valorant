@@ -268,7 +268,7 @@ font-family: 'VALORANT';
 
 .texto {
 
-    width: 43vw;
+    width: 40vw;
     height: 20vh;
     background-color: white;
     opacity: 0.4;
@@ -586,7 +586,7 @@ body {
         position: absolute;
         display: block;
         top: 10px;
-        margin-left: 92vw;
+        margin-left: 93vw;
         
     }
 
@@ -621,7 +621,7 @@ body {
 
         display: block;
         position: absolute;
-        top: 60px;
+        top: 58px;
         left: 0;
         width: 100vw;
         background-color: #0e0c0c7d;
@@ -751,23 +751,13 @@ body {
 
     .logo {
         object-fit:contain;
-        width: 10vw;
+        width: 15vw;
         height: 15.36vh;
     }
 
     .login{
-        margin-right: 1.5vw;
-        height: 3vh;
-        width: 9.5vw;
-        background-color: red;
-        border-radius: 10px;
-        font-size: 2vw;
-        font-weight: bold;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
+        
+        display: none;
     }
 }
 
